@@ -5,7 +5,19 @@ p{
     color: white;
     text-align: center;
 }
-img {
-    justify-content: center;
+main {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+.Test_text{
+ color: white;
+}
+.ClickTro{
+    width: 200px;
+    height: 50px;
+    transition: transform 0.2s ease;
+}
+.ClickTro :active {
+    transform: scale(1.00);
 }
