@@ -1,12 +1,8 @@
-    window.onload = () => {
-        const javaTest = document.getElementById("Elemento_Teste");
-        javaTest.classList.add("Test_Text");
+window.onload = () => {
+    let Horas = 0;
+    let Minutos = 0;
+    let Segundos = 0;
+    let Milisegundos = 0;
 
-        
-        const ButColor = document.querySelector(".ClickTro");
-        ButColor.addEventListener("click",()=>{
-            ButColor.style.backgroundColor = "red";
-        });
-        
-
+    
 };
